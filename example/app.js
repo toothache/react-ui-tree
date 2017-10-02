@@ -39,7 +39,7 @@ class App extends Component {
         <div className="tree">
           <Tree
             paddingLeft={20}
-            draggable={false}
+            draggable={true}
             tree={this.state.tree}
             onChange={this.handleChange}
             isNodeCollapsed={this.isNodeCollapsed}
