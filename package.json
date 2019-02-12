@@ -10,9 +10,7 @@
     "build": "rollup -c",
     "build-example": "webpack --mode production",
     "deploy": "webpack --mode production && github-pages-deploy",
-    "test": "jest --coverage",
-    "preinstall": "npm install --only=dev --ignore-scripts",
-    "postinstall": "npm run build"
+    "test": "jest --coverage"
   },
   "github-pages-deploy": {
     "src": "example"
