@@ -11,7 +11,8 @@
     "build-example": "webpack --mode production",
     "deploy": "webpack --mode production && github-pages-deploy",
     "test": "jest --coverage",
-    "postinstall": "npm install && npm run build"
+    "preinstall": "npm install --only=dev --ignore-scripts",
+    "postinstall": "npm run build"
   },
   "github-pages-deploy": {
     "src": "example"
@@ -67,7 +68,7 @@
     "react-test-renderer": "^16.6.0",
     "regenerator-runtime": "^0.12.1",
     "rollup": "^0.66.6",
-    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^3.4.0",
     "style-loader": "^0.23.1",
