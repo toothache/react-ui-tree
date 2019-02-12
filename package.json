@@ -28,7 +28,8 @@
   ],
   "files": [
     "index.d.ts",
-    "dist"
+    "dist",
+    "rollup.config.js"
   ],
   "author": "Wang Zuo",
   "license": "MIT",
