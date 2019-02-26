@@ -24,9 +24,9 @@
     "react-component",
     "tree"
   ],
-   "files": [
-     "index.d.ts",
-     "dist"
+  "files": [
+    "index.d.ts",
+    "dist"
   ],
   "author": "Wang Zuo",
   "license": "MIT",
@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
+    "@types/react": "^16.8.3",
     "classnames": "^2.2.5",
     "js-tree": "^2.0.1",
     "prop-types": "^15.6.2"
